@@ -1,0 +1,650 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Home</title>
+    <link href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="Styles.css" rel="stylesheet">
+
+    <style>
+        #iframe {
+            border: 0px;
+            height: 25%;
+            width: 100%;
+            resize: both;
+        }
+        
+        #populardestinations {
+            margin: 10px;
+            text-align-last: center;
+            clear: left;
+        }
+        
+        #goa {
+            border: 4px #40922c;
+            border-style: solid;
+            text-align-last: center;
+            margin-top: 10px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            margin-left: 10px;
+            padding: 20px;
+            width: 300px;
+            height: 700px;
+        }
+        
+        #kochi {
+            border: 4px #40922c;
+            border-style: solid;
+            text-align-last: center;
+            margin-top: 10px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            margin-left: 10px;
+            padding: 20px;
+            width: 300px;
+            height: 700px;
+        }
+        
+        #varanasi {
+            border: 4px #40922c;
+            border-style: solid;
+            text-align-last: center;
+            margin-top: 10px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            margin-left: 10px;
+            padding: 20px;
+            width: 300px;
+            height: 700px;
+        }
+        
+        #srinagar {
+            border: 4px #40922c;
+            border-style: solid;
+            text-align-last: center;
+            margin-top: 10px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            margin-left: 10px;
+            padding: 20px;
+            width: 300px;
+            height: 700px;
+        }
+        
+        #delhi {
+            border: 4px #40922c;
+            border-style: solid;
+            text-align-last: center;
+            margin-top: 10px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            margin-left: 10px;
+            padding: 20px;
+            width: 300px;
+            height: 700px;
+        }
+        
+        #mumbai {
+            border: 4px #40922c;
+            border-style: solid;
+            text-align-last: center;
+            margin-top: 10px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            margin-left: 10px;
+            padding: 20px;
+            width: 300px;
+            height: 700px;
+        }
+        
+        #chennai {
+            border: 4px #40922c;
+            border-style: solid;
+            text-align-last: center;
+            margin-top: 10px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            margin-left: 10px;
+            padding: 20px;
+            width: 300px;
+            height: 700px;
+        }
+        
+        #kolkata {
+            border: 4px #40922c;
+            border-style: solid;
+            text-align-last: center;
+            margin-top: 10px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            margin-left: 10px;
+            padding: 20px;
+            width: 300px;
+            height: 700px;
+        }
+        
+        #bangaluru {
+            border: 4px #40922c;
+            border-style: solid;
+            text-align-last: center;
+            margin-top: 10px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            margin-left: 10px;
+            padding: 20px;
+            width: 300px;
+            height: 700px;
+        }
+        
+        #hyderabad {
+            border: 4px #40922c;
+            border-style: solid;
+            text-align-last: center;
+            margin-top: 10px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            margin-left: 10px;
+            padding: 20px;
+            width: 300px;
+            height: 700px;
+        }
+        
+        #thiruvananthapuram {
+            border: 4px #40922c;
+            border-style: solid;
+            text-align-last: center;
+            margin-top: 10px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            margin-left: 10px;
+            padding: 20px;
+            width: 300px;
+            height: 700px;
+        }
+        
+        #agra {
+            border: 4px #40922c;
+            border-style: solid;
+            text-align-last: center;
+            margin-top: 10px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            margin-left: 10px;
+            padding: 20px;
+            width: 300px;
+            height: 700px;
+        }
+        
+        #jaipur {
+            border: 4px #40922c;
+            border-style: solid;
+            text-align-last: center;
+            margin-top: 10px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            margin-left: 10px;
+            padding: 20px;
+            width: 300px;
+            height: 700px;
+        }
+        
+        #jodhpur {
+            border: 4px #40922c;
+            border-style: solid;
+            text-align-last: center;
+            margin-top: 10px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            margin-left: 10px;
+            padding: 20px;
+            width: 300px;
+            height: 700px;
+        }
+        
+        #darjeeling {
+            border: 4px #40922c;
+            border-style: solid;
+            text-align-last: center;
+            margin-top: 10px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            margin-left: 10px;
+            padding: 20px;
+            width: 300px;
+            height: 700px;
+        }
+        
+        #dharmasala {
+            border: 4px #40922c;
+            border-style: solid;
+            text-align-last: center;
+            margin-top: 10px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            margin-left: 10px;
+            padding: 20px;
+            width: 300px;
+            height: 700px;
+        }
+        
+        #shimla {
+            border: 4px #40922c;
+            border-style: solid;
+            text-align-last: center;
+            margin-top: 10px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            margin-left: 10px;
+            padding: 20px;
+            width: 300px;
+            height: 700px;
+        }
+        
+        .heading {
+            color: rgb(101, 145, 91);
+            font-size: 40px;
+            text-indent: 1.2em;
+            font-weight: bold;
+            opacity: 0.6;
+        }
+        
+        .city {
+            float: left;
+            align-items: center;
+        }
+        
+        #indianclimate {
+            padding: 1.2em;
+        }
+        
+        .season {
+            border: 4px rgb(194, 16, 16);
+            border-style: solid;
+            margin: 20px;
+            padding: 1.2em;
+            text-align: justify;
+            overflow: auto;
+            float: left;
+            min-width: 400px;
+        }
+        
+        .cityheading {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 1vw;
+            text-decoration: none;
+            color: #7fe72a;
+            border-radius: 35px;
+            background-color: black;
+        }
+        
+        .seasonheading {
+            font-family: cursive;
+            font-size: 160%;
+        }
+        
+        .temp {
+            font-weight: bolder;
+            color: rgb(238, 9, 9);
+        }
+        
+        h4 {
+            text-transform: capitalize;
+            text-decoration: none;
+        }
+        
+        .seasonpara {
+            text-indent: 100px;
+        }
+        
+        h2 {
+            clear: left;
+            text-align: center;
+            color: #51772b;
+            font-size: 60px;
+            margin: 15px 15px 15px 15px;
+        }
+        
+        .copyright {
+            background-color: #c5c1c1;
+            color: black;
+            opacity: 0.6;
+            position: fixed;
+            top: 95vh;
+            width: 100%;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!--navbar starts here-->
+
+    <div id="navbar">
+        <div class="navbar-brand">India tourism</div>
+        <div class="nav">
+            <ul>
+                <li> <a href="#indianclimate">Go to Indian climate</a></li>
+                <li><a href="tourism.html">Home</a></li>
+                <li><a href="States.html">states</a></li>
+                <li><a href="Destinations.html">Destinations</a></li>
+            </ul>
+        </div>
+    </div>
+
+
+    <!--navbar ends here-->
+    <div class="copyright">All &copy; rights reserved by Arasiah Bala</div>
+
+
+    <h1 class="heading">Welcome to India Tourism</h1>
+
+
+    <h2>Popular Destinations</h2>
+
+    <div id="populardestinations" class="container">
+        <div id="goa" class="city">
+            <h3 class="cityheading"><span class="material-icons">location_city</span> GOA</h3>
+            <H4>Things to do</H4>
+            <H5>First one</H5>
+            <H6>About first one</H6>
+            <h5>Second one</h5>
+            <h6>About second one</h6>
+
+            <H5>Day plans</H5>
+            <H4>Things to do</H4>
+            <H5>First one</H5>
+            <H6>About first one</H6>
+            <h5>Second one</h5>
+            <h6>About second one</h6>
+        </div>
+
+
+        <div id="kochi" class="city">
+            <h3 class="cityheading"><span class="material-icons">location_city</span> KOCHI</h3>
+            <H4>Things to do</H4>
+            <H5>First one</H5>
+            <H6>About first one</H6>
+            <h5>Second one</h5>
+            <h6>About second one</h6>
+
+            <H5>Day plans</H5>
+            <H4>Things to do</H4>
+            <H5>First one</H5>
+            <H6>About first one</H6>
+            <h5>Second one</h5>
+            <h6>About second one</h6>
+        </div>
+
+        <div id="varanasi" class="city">
+            <h3 class="cityheading"><span class="material-icons">location_city</span> VARANASI</h3>
+            <H4>Things to do</H4>
+            <H5>First one</H5>
+            <H6>About first one</H6>
+            <h5>Second one</h5>
+            <h6>About second one</h6>
+
+            <H5>Day plans</H5>
+            <H4>Things to do</H4>
+            <H5>First one</H5>
+            <H6>About first one</H6>
+            <h5>Second one</h5>
+            <h6>About second one</h6>
+        </div>
+
+        <div id="delhi" class="city">
+            <h3 class="cityheading"><span class="material-icons">location_city</span> DELHI</h3>
+            <H4>Things to do</H4>
+            <H5>First one</H5>
+            <H6>About first one</H6>
+            <h5>Second one</h5>
+            <h6>About second one</h6>
+
+            <H5>Day plans</H5>
+            <H4>Things to do</H4>
+            <H5>First one</H5>
+            <H6>About first one</H6>
+            <h5>Second one</h5>
+            <h6>About second one</h6>
+        </div>
+
+        <div id="mumbai" class="city">
+            <h3 class="cityheading"><span class="material-icons">location_city</span> MUMBAI</h3>
+            <H4>Things to do</H4>
+            <H5>First one</H5>
+            <H6>About first one</H6>
+            <h5>Second one</h5>
+            <h6>About second one</h6>
+
+            <H5>Day plans</H5>
+            <H4>Things to do</H4>
+            <H5>First one</H5>
+            <H6>About first one</H6>
+            <h5>Second one</h5>
+            <h6>About second one</h6>
+        </div>
+
+        <div id="chennai" class="city">
+            <h3 class="cityheading"><span class="material-icons">location_city</span> CHENNAI</h3>
+            <H4>Things to do</H4>
+            <H5>First one</H5>
+            <H6>About first one</H6>
+            <h5>Second one</h5>
+            <h6>About second one</h6>
+
+            <H5>Day plans</H5>
+            <H4>Things to do</H4>
+            <H5>First one</H5>
+            <H6>About first one</H6>
+            <h5>Second one</h5>
+            <h6>About second one</h6>
+        </div>
+
+        <div id="kolkata" class="city">
+            <h3 class="cityheading"><span class="material-icons">location_city</span> KOLKATA</h3>
+            <H4>Things to do</H4>
+            <H5>First one</H5>
+            <H6>About first one</H6>
+            <h5>Second one</h5>
+            <h6>About second one</h6>
+
+            <H5>Day plans</H5>
+            <H4>Things to do</H4>
+            <H5>First one</H5>
+            <H6>About first one</H6>
+            <h5>Second one</h5>
+            <h6>About second one</h6>
+        </div>
+
+        <div id="bangaluru" class="city">
+            <h3 class="cityheading"><span class="material-icons">location_city</span> BANGALURU</h3>
+            <H4>Things to do</H4>
+            <H5>First one</H5>
+            <H6>About first one</H6>
+            <h5>Second one</h5>
+            <h6>About second one</h6>
+
+            <H5>Day plans</H5>
+            <H4>Things to do</H4>
+            <H5>First one</H5>
+            <H6>About first one</H6>
+            <h5>Second one</h5>
+            <h6>About second one</h6>
+        </div>
+
+        <div id="hyderabad" class="city">
+            <h3 class="cityheading"><span class="material-icons">location_city</span> HYDERABAD</h3>
+            <H4>Things to do</H4>
+            <H5>First one</H5>
+            <H6>About first one</H6>
+            <h5>Second one</h5>
+            <h6>About second one</h6>
+
+            <H5>Day plans</H5>
+            <H4>Things to do</H4>
+            <H5>First one</H5>
+            <H6>About first one</H6>
+            <h5>Second one</h5>
+            <h6>About second one</h6>
+        </div>
+
+        <div id="thiruvananthapuram" class="city">
+            <h3 class="cityheading"><span class="material-icons">location_city</span> THIRUVANANTHAPURAM</h3>
+            <H4>Things to do</H4>
+            <H5>First one</H5>
+            <H6>About first one</H6>
+            <h5>Second one</h5>
+            <h6>About second one</h6>
+
+            <H5>Day plans</H5>
+            <H4>Things to do</H4>
+            <H5>First one</H5>
+            <H6>About first one</H6>
+            <h5>Second one</h5>
+            <h6>About second one</h6>
+        </div>
+
+        <div id="agra" class="city">
+            <h3 class="cityheading"><span class="material-icons">location_city</span> AGRA</h3>
+            <H4>Things to do</H4>
+            <H5>First one</H5>
+            <H6>About first one</H6>
+            <h5>Second one</h5>
+            <h6>About second one</h6>
+
+            <H5>Day plans</H5>
+            <H4>Things to do</H4>
+            <H5>First one</H5>
+            <H6>About first one</H6>
+            <h5>Second one</h5>
+            <h6>About second one</h6>
+        </div>
+
+        <div id="jaipur" class="city">
+            <h3 class="cityheading"><span class="material-icons">location_city</span> JAIPUR</h3>
+            <H4>Things to do</H4>
+            <H5>First one</H5>
+            <H6>About first one</H6>
+            <h5>Second one</h5>
+            <h6>About second one</h6>
+
+            <H5>Day plans</H5>
+            <H4>Things to do</H4>
+            <H5>First one</H5>
+            <H6>About first one</H6>
+            <h5>Second one</h5>
+            <h6>About second one</h6>
+        </div>
+
+        <div id="jodhpur" class="city">
+            <h3 class="cityheading"><span class="material-icons">location_city</span> JODHPUR</h3>
+            <H4>Things to do</H4>
+            <H5>First one</H5>
+            <H6>About first one</H6>
+            <h5>Second one</h5>
+            <h6>About second one</h6>
+
+            <H5>Day plans</H5>
+            <H4>Things to do</H4>
+            <H5>First one</H5>
+            <H6>About first one</H6>
+            <h5>Second one</h5>
+            <h6>About second one</h6>
+        </div>
+
+        <div id="dharmasala" class="city">
+            <h3 class="cityheading"><span class="material-icons">location_city</span> DHARMASALA</h3>
+            <H4>Things to do</H4>
+            <H5>First one</H5>
+            <H6>About first one</H6>
+            <h5>Second one</h5>
+            <h6>About second one</h6>
+
+            <H5>Day plans</H5>
+            <H4>Things to do</H4>
+            <H5>First one</H5>
+            <H6>About first one</H6>
+            <h5>Second one</h5>
+            <h6>About second one</h6>
+        </div>
+
+        <div id="darjeeling" class="city">
+            <h3 class="cityheading"><span class="material-icons">location_city</span> DARJEELING</h3>
+            <H4>Things to do</H4>
+            <H5>First one</H5>
+            <H6>About first one</H6>
+            <h5>Second one</h5>
+            <h6>About second one</h6>
+
+            <H5>Day plans</H5>
+            <H4>Things to do</H4>
+            <H5>First one</H5>
+            <H6>About first one</H6>
+            <h5>Second one</h5>
+            <h6>About second one</h6>
+        </div>
+
+
+        <div id="shimla" class="city">
+            <h3 class="cityheading"><span class="material-icons">location_city</span> SHIMLA</h3>
+            <H4>Things to do</H4>
+            <H5>First one</H5>
+            <H6>About first one</H6>
+            <h5>Second one</h5>
+            <h6>About second one</h6>
+
+            <H5>Day plans</H5>
+            <H4>Things to do</H4>
+            <H5>First one</H5>
+            <H6>About first one</H6>
+            <h5>Second one</h5>
+            <h6>About second one</h6>
+        </div>
+    </div>
+
+
+    <div id="iframe">
+        <iframe link href="https://www.youtube.com" name="myiframe"></iframe>
+    </div>
+    <div id="indianclimate">
+        <h2>Indian Climate</h2>
+        <div id="summer" class="season">
+            <h3 class="seasonheading"><span class="fa fa-sun"></span> Summer</h3>
+            <p class="seasonpara">During the three months from April to June it is summer in most parts of India.Generally in the month of April, many parts of India experiences high temperature. The normal <span class="temp">temperature</span> recorded in this time in generally
+                30°C. But at some places in the plateau region the <span class="temp">temperature</span> rises to 40°C and in the Himalayan mountain region, it remains near about 20°C.</p>
+        </div>
+
+
+        <div id="winter" class="season">
+            <h3 class="seasonheading"><span class="fa fa-cloud"></span> Winter</h3>
+            <p class="seasonpara">
+                During the period from December to February there is winter season in India. During this time clouds and dry North-East Monsoon passes over different regions of India and temperature is decreased considerably. In Himalayan area the temperature is much
+                lower (between 5°C and 10°C). But sometimes cyclone (coming from the West) causes storm and rainfall which is known as Western disturbance.
+            </p>
+        </div>
+
+        <div id="rainy" class="season">
+            <h3 class="seasonheading"><span class="fa fa-cloud-rain"></span> Rainy</h3>
+            <p class="seasonpara">The rainy season in India begins generally from the second week of July and continues up to the second week of October. From the second week of June humid monsoon enters various parts of India and causes rainfall everywhere in the state.
+
+            </p>
+        </div>
+
+        <div id="spring" class="season">
+            <h3 class="seasonheading"><span class="fa fa-sun"></span> spring</h3>
+            <p class="seasonpara">advent of spring brings us the pleasant sound wind begins to blow. It refreshes our body and mind. The countryside appears to be adorned with green leaves and flowers. Birds sing and bees hum in the flower garden. Trees and creepers are covered
+                with beautiful flowers. Bees hum all day long among them.</p>
+        </div>
+
+    </div>
+
+
+
+
+</body>
+
+
+</html>
